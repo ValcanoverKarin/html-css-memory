@@ -43,6 +43,11 @@ h1 {
     border-radius: 5px
 }
 
+img {
+    width: 100%;
+    position: relative;
+}
+
 .card img {
     display: none;
 }
@@ -55,9 +60,11 @@ h1 {
     display: block;
 }
 
-img {
-    width: 100%;
+h2{
     position: relative;
+    font-size: 26px;
+    display: inline-block;
+    color: #e67918;
 }
 
 .card h2 {
@@ -66,13 +73,6 @@ img {
 
 .card:hover h2 {
     display: block;
-}
-
-h2{
-    position: relative;
-    font-size: 26px;
-    display: inline-block;
-    color: #e67918;
 }
 
 /*fine main*/
