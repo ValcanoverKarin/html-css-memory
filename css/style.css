@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    background-color: #7a8c92;
+    background-color: #add8e6;
     width: 65%;
     margin: auto;
 }
@@ -27,7 +27,6 @@ h1 {
 
 /*main*/
 .riga {
-    background-color: thistle;
     text-align: center;
 }
 
@@ -35,9 +34,9 @@ h1 {
     height: 180px;
     width: 160px;
     display: inline-block;
-    background-color: wheat;
-    border: 1px solid white;
+    background-color: white;
     margin: 10px;
+    border-radius: 5px
 }
 /*fine main*/
 
