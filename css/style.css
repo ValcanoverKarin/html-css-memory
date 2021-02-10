@@ -6,7 +6,28 @@
 }
 
 /*common*/
-
 body {
     font-family: "Nerko One";
+    background-color: #add8e6;
 }
+
+.container {
+    background-color: #7a8c92;
+    width: 65%;
+    margin: auto;
+}
+
+/*header*/
+h1 {
+    text-align: center;
+}
+/*fine header*/
+
+/*main*/
+/*fine main*/
+
+/*footer*/
+footer {
+    text-align: center;
+}
+/*finefooter*/
