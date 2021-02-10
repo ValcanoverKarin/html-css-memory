@@ -43,6 +43,15 @@ h1 {
 
 img {
     width: 100%;
+    position: relative;
+}
+
+.text {
+    position: relative;
+    font-size: 28px;
+    display: inline-block;
+    bottom: 7px;
+    color: #e67918;
 }
 /*fine main*/
 
