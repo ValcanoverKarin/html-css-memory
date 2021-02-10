@@ -20,10 +20,25 @@ body {
 /*header*/
 h1 {
     text-align: center;
+    color: white;
+    font-size: 50px;
 }
 /*fine header*/
 
 /*main*/
+.riga {
+    background-color: thistle;
+    text-align: center;
+}
+
+.card {
+    height: 180px;
+    width: 160px;
+    display: inline-block;
+    background-color: wheat;
+    border: 1px solid white;
+    margin: 10px;
+}
 /*fine main*/
 
 /*footer*/
