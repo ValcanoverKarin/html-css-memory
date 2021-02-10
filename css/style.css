@@ -60,6 +60,21 @@ img {
     position: relative;
 }
 
+.card h2 {
+    display: none;
+}
+
+.card:hover h2 {
+    display: block;
+}
+
+h2{
+    position: relative;
+    font-size: 26px;
+    display: inline-block;
+    color: #e67918;
+}
+
 /*fine main*/
 
 /*footer*/
