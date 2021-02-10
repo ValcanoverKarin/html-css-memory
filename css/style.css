@@ -32,6 +32,8 @@ h1 {
 
 .card {
     overflow: hidden;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
     padding: 20px;
     height: 180px;
     width: 160px;
@@ -41,18 +43,23 @@ h1 {
     border-radius: 5px
 }
 
+.card img {
+    display: none;
+}
+
+.card:hover {
+    background-image: none;
+}
+
+.card:hover img {
+    display: block;
+}
+
 img {
     width: 100%;
     position: relative;
 }
 
-.text {
-    position: relative;
-    font-size: 28px;
-    display: inline-block;
-    bottom: 7px;
-    color: #e67918;
-}
 /*fine main*/
 
 /*footer*/
